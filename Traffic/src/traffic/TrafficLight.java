@@ -8,11 +8,13 @@ package traffic;
  *
  */
 public enum TrafficLight {
-	// Declare constants of enum type
-	RED(50), GREEN(40),YELLOW(5);
+	// Declare constants of enum type, prior to any fields or methods
+	RED (50),
+	GREEN (40),
+	YELLOW (5);
 	
 	// Instance fields (Durations of the light)
-	int seconds;
+	private final int seconds;
 	
 	// enum type constructor
 	TrafficLight(int seconds){

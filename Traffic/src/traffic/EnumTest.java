@@ -15,7 +15,7 @@ public class EnumTest {
 		
 		// print all traffic lights and their duration using enhanced for loop
 		for(TrafficLight color : TrafficLight.values()) {
-			System.out.println(color + "\t" + color.getSeconds());
+			System.out.printf("%s\t%d%n", color, color.getSeconds());
 		}
 	}
 
