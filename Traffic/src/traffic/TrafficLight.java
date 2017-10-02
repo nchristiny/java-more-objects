@@ -19,7 +19,7 @@ public enum TrafficLight {
 		this.seconds = seconds;
 	}
 	
-	// accessor for duration
+	// accessor for duration (getter)
 	int getSeconds(){
 		return seconds;
 	}
