@@ -20,11 +20,11 @@ public class Unique {
 		while(entered < numbers.length){
 			System.out.print("Enter number: ");
 			value = input.nextInt();
-			
+
 			// validate input
 			if (value >= 10 && value <= 100){
 				Boolean containsNumber = false;
-				
+
 				// check for duplicate number
 				for (int i = 0; i < entered; i++){
 					if (numbers[i] == value){
@@ -43,7 +43,7 @@ public class Unique {
 				} else {
 					System.out.println(value + " has already been entered.");
 				}
-				
+
 			} else {
 				System.out.println("Must enter integer from 10 to 100.");
 			}
